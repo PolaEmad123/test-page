@@ -232,3 +232,34 @@ fieldset {
 input {
   overflow: visible;
 }
+
+/**
+ * 1. Correct the text wrapping in Edge 18- and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ */
+
+ legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * 1. Add the correct display in Edge 18- and IE.
+   * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
+   */
+  
+  progress {
+    display: inline-block; /* 1 */
+    vertical-align: baseline; /* 2 */
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Firefox.
+   */
+  
+  select {
+    text-transform: none;
+  }
