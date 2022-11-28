@@ -64,3 +64,16 @@ hr {
   height: 0; /* 1 */
   overflow: visible; /* 3 */
 }
+
+/**
+ * Add the correct display in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
