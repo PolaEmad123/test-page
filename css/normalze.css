@@ -131,3 +131,49 @@ samp {
 small {
   font-size: 80%;
 }
+
+/* Embedded content
+ * ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+ audio,
+ video {
+   display: inline-block;
+ }
+ 
+ /**
+  * Add the correct display in iOS 4-7.
+  */
+ 
+ audio:not([controls]) {
+   display: none;
+   height: 0;
+ }
+ 
+ /**
+  * Remove the border on images within links in IE 10-.
+  */
+ 
+ img {
+   border-style: none;
+ }
+ 
+ /**
+  * Hide the overflow in IE.
+  */
+ 
+ svg:not(:root) {
+   overflow: hidden;
+ }
+ 
+ /* Tabular data
+  * ========================================================================== */
+ 
+ /**
+  * 1. Correct table border color inheritance in all Chrome, Edge, and Safari.
+  * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
+  */
+  
