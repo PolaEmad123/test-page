@@ -302,3 +302,25 @@ textarea {
   ::-webkit-outer-spin-button {
     height: auto;
   }
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+ ::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+  }
+  
+  /**
+   * Remove the inner padding in Chrome, Edge, and Safari on macOS.
+   */
+  
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style upload buttons in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
