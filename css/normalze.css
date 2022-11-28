@@ -324,3 +324,17 @@ textarea {
    * 1. Correct the inability to style upload buttons in iOS and Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
+   
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /**
+   * Remove the inner border and padding of focus outlines in Firefox.
+   */
+  
+  ::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
