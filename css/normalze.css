@@ -358,3 +358,24 @@ textarea {
   /* Interactive
    * ========================================================================== */
   
+/*
+ * Add the correct display in Edge 18- and IE.
+ */
+
+details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct styles in Edge 18-, IE, and Safari.
+   */
+  
+  dialog {
+    background-color: white;
+    border: solid;
+    color: black;
+    display: block;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
+    height: fit-content;
+  
